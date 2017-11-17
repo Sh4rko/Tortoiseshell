@@ -1,0 +1,179 @@
+html{
+  font-size: 18px;
+  font-family:helvetica;
+}
+
+
+
+/*Header*/
+
+.container#banner{
+  display:flex;
+  background-image: url("../images/glasses.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 28rem;
+  justify-content: center;
+  margin: 0px;
+}
+
+header{
+  margin-top:1rem;
+  display:flex;
+  background-color: cadetblue;
+  width: 960px;
+  height:3rem;
+  color:white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  display:flex;
+  align-items: center;
+}
+
+header .link{
+display:inline-flex;
+}
+
+header .link li{
+  padding-right:2rem;
+}
+
+header .logo img{
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+
+.tagline{
+  display:flex;
+  position:absolute;
+  top:13rem;
+  right:15rem;
+}
+.tagline span{
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+/*Services*/
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+
+.services{
+  display:flex;
+  width: 960px;
+  justify-content: center;
+}
+
+.paper{
+  display: flex;
+  margin-top: 3rem;
+  margin-right:6rem;
+  flex-direction: column;
+  align-items:center;
+}
+
+.paper span{
+  margin-top:1rem;
+  text-align: center;
+}
+
+.paper img{
+  width:3.5rem;
+  height:4rem;
+}
+
+
+.ruler{
+  display:flex;
+  margin-top: 3rem;
+  margin-right:6rem;
+  flex-direction: column;
+  align-items:center;
+}
+
+.ruler span{
+  margin-top:2.25rem;
+  text-align: center;
+}
+
+.ruler img{
+  width:5rem;
+}
+
+
+.truck{
+  display:flex;
+  margin-top: 3rem;
+  flex-direction: column;
+  align-items:center;
+}
+
+.truck span{
+  margin-top:2rem;
+  text-align: center;
+}
+
+.truck img{
+  width:5rem;
+}
+
+/*Contact information*/
+
+.business-info{
+  display: flex;
+  justify-content: flex-start;
+  max-width: 960px;
+}
+
+.title{
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  font-family: helvetica;
+  max-width: 10rem;
+  margin-top:3rem;
+  margin-bottom: 1rem;
+}
+
+.info{
+  display:flex;
+  flex-direction: column;
+  max-width: 35%;
+  margin-right:5%;
+}
+
+/*Footer*/
+
+footer{
+  display:flex;
+  justify-content: center;
+}
+
+.foot{
+  display:flex;
+  width: 960px;
+  height:10rem;
+  background-color:azure;
+  margin-top:5rem;
+  align-items: center;
+}
+
+.foot img{
+  height:1.5rem;
+  padding-top: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 1rem;
+}
