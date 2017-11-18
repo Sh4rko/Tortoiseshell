@@ -42,6 +42,10 @@ header .link li{
   padding-right:2rem;
 }
 
+header .link2{
+  display:none;
+}
+
 header .logo img{
   height: 1.5rem;
   padding-right: 1rem;
@@ -54,6 +58,7 @@ header .logo img{
   top:13rem;
   right:15rem;
 }
+
 .tagline span{
   font-weight: bold;
   font-size: 2rem;
@@ -176,4 +181,160 @@ footer{
   margin-left: 4rem;
   margin-bottom: 4rem;
   margin-right: 1rem;
+}
+
+
+/*Tablet screens*/
+
+@media only screen and (max-width: 1024px){
+header{
+  margin-top: 0rem;
+}
+
+.container#banner{
+  height:22rem;
+}
+
+.tagline{
+  display:fixed;
+  position:absolute;
+  top:8rem;
+  right:2rem;
+}
+.tagline span{
+  font-weight: bold;
+  font-size: 1.33rem;
+  line-height: 1.2;
+  padding: 0.75rem 4rem;
+  background-color: white;
+}
+
+.info{
+  margin-left:2rem;
+}
+
+}
+
+/*Mobile Screens*/
+
+@media only screen and (max-width: 470px){
+
+.logo span{
+  display:none;
+}
+
+  .link li{
+    display:none;
+  }
+
+  header .link2{
+  display:inline-flex;
+  }
+
+  header .link2 li{
+    padding-right:2rem;
+  }
+
+
+  .container#banner{
+    display:flex;
+    height:17rem;
+    background-position: 20%;
+    justify-content: center;
+  }
+
+  .tagline{
+    padding-right: 0rem;
+    justify-content: center;
+    top:13rem;
+    right:0rem;
+    min-width: 100%;
+    background-color: white;
+  }
+  .tagline span{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1rem auto;
+    background-color: white;
+    margin-right:0%;
+    margin-left: 0%;
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+  .services{
+    font-size:.77rem;
+    display:block;
+    width: 100%;
+    align-items:center;
+  }
+
+.paper{
+  margin-top:3.77rem;
+  margin-right:0rem;
+}
+
+.ruler{
+  margin-top:1.54rem;
+  margin-right:0rem;
+}
+
+.business-info{
+  display: block;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.title{
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  font-family: helvetica;
+  min-width: 100%;
+  margin-top:3rem;
+  margin-bottom: 1rem;
+}
+
+.info{
+
+  display:flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-right:0%;
+  margin-left: 0%;
+}
+
+.info span{
+  margin-top: 1rem;
+  margin bottom: 4rem;
+  font-size: .77rem;
+}
+
+.foot{
+  display:flex;
+  width: 960px;
+  height:10rem;
+  background-color:azure;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot img{
+  height:1.5rem;
+  padding-top: 0rem;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+  margin-right: 0rem;
+}
+
+.foot span{
+  display:none;
+}
+
 }
